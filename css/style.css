@@ -1,0 +1,100 @@
+/*header*/
+body{
+	padding-top: 81px;
+}
+.header{
+	background-color: #F6F8F9;
+	padding: 25px;
+	position: fixed;
+	width: 100%;
+	top:0;
+	left:0;
+	z-index: 100;
+}
+.header-conteiner{
+	display: flex;
+	justify-content: space-between;
+}
+.ul-text{
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.li-text{
+	color: black;
+}
+/*header-end*/
+/*section1*/
+.bg-image{
+	background-image: url('../image/banner.jpg');
+	width: 100%;
+	height: 650px;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.h1{
+	font-size: 78px;
+	color:white;
+}
+.h3-image{
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	margin-top: 36px;
+}
+/*secton1/end*/
+
+/*section2*/
+.conteiner{
+	width: 1360px;
+	margin: 0 auto;
+	display: flex;
+}
+.left-box{
+	width: 242px;
+	margin-top: 76px;
+	margin-right: 59px;
+}
+/*left-box*/
+.discover{
+	color: #8D8D8D;
+	font-size: 16px;
+	margin-bottom: 6px;
+}
+.left-box-title{
+	font-size: 26px;
+	color: black;
+	margin-bottom: 40px;
+}
+.p-text{
+	color: #8D8D8D;
+	font-size: 16px;
+	width: 240px;
+}
+/*left-box-end*/
+/*right-box*/
+.box-conteiner1{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 76px;
+
+}
+.box-conteiner2{
+	display: flex;
+	justify-content: space-between;
+}
+.right-box h4{
+	font-size: 18px;
+	margin-top:22.4px;
+	margin-bottom: 9px;
+	color: black;
+}
+.right-box p{
+	color: #8D8D8D;
+	width: 267px;
+	font-size: 16px;
+}
